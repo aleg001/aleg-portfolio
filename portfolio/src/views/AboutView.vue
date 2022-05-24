@@ -5,12 +5,14 @@
       <v-spacer></v-spacer>
       <bar-buttons></bar-buttons>
     </v-app-bar>
+    <skill-card></skill-card>
   </v-app>
 </template>
 
 <script>
 import BarButtons from '../components/BarButtons.vue'
 import Navigator from '../components/Navigator.vue'
+import SkillCard from '../components/SkillCard.vue'
 
 export default {
   name: 'AboutView',
@@ -18,6 +20,7 @@ export default {
   components: {
     BarButtons,
     Navigator,
+    SkillCard,
   },
 
   data: () => ({
