@@ -1,33 +1,14 @@
 <template>
   <v-app>
-    <v-app-bar app color="white" style="position: fixed">
-      <NavigatorVue />
-      <v-spacer></v-spacer>
-      <bar-buttons></bar-buttons>
-    </v-app-bar>
-
-    <v-main style="background-color: #96a39b">
-      <PortfolioMain />
-      <ContactInfo />
-    </v-main>
+    <router-view />
   </v-app>
 </template>
 
 <script>
-import BarButtons from './components/BarButtons.vue'
-import ContactInfo from './components/Menu.vue'
-import NavigatorVue from './components/Navigator.vue'
-import PortfolioMain from './components/PortfolioMain.vue'
-
 export default {
   name: 'App',
 
-  components: {
-    PortfolioMain,
-    ContactInfo,
-    BarButtons,
-    NavigatorVue,
-  },
+  components: {},
 
   data: () => ({
     //

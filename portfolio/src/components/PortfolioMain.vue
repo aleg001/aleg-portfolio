@@ -1,5 +1,5 @@
 <template>
-  <v-container style="border-radius: 90px" class="mb-5 mt-5">
+  <v-container style="border-radius: 90px" class="mt-5">
     <v-row class="text-center">
       <v-col cols="12">
         <img
