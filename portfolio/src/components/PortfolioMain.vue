@@ -13,16 +13,19 @@
       </v-col>
 
       <v-col class="mb-10">
-        <h1 class="display-2 font-weight-bold mb-3">Ale G</h1>
+        <h1 class="display-2 font-weight-bold mb-3">Hello, I'm Ale G</h1>
         <h1>
           <span class="typed-text">{{ typeValue }}</span>
           <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
         </h1>
         <br />
 
-        <p class="subheading font-weight-regular">
+        <p class="subheading font-weight-light">
           Third year Computer Science Student at Universidad del Valle de
-          Guatemala
+          Guatemala.
+          <br />
+          <br />
+          Currently working at <b>ALMA Project</b>
         </p>
       </v-col>
     </v-row>
@@ -39,7 +42,7 @@ export default {
       compu: require('../assets/desktop.png'),
       typeValue: '',
       typeStatus: true,
-      typeArray: ['Full Stack Dev', 'Músico', 'Estudiante UVG'],
+      typeArray: ['Full Stack Dev', 'Musician', 'Student'],
       typingSpeed: 80,
       erasingSpeed: 1,
       newTextDelay: 500,
@@ -95,7 +98,7 @@ export default {
 
 h1 {
   span.typed-text {
-    color: black;
+    color: rgb(97, 95, 95);
   }
   span.cursor {
     display: inline-block;
