@@ -1,5 +1,5 @@
 <template>
-  <v-container style="border-radius: 30px">
+  <v-container class="mt-10" style="border-radius: 30px">
     <v-row class="text-center mt-4" justify="center">
       <v-col cols="auto">
         <v-btn

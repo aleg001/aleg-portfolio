@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="white" style="position: fixed">
+      <NavigatorVue />
       <v-spacer></v-spacer>
       <bar-buttons></bar-buttons>
     </v-app-bar>
@@ -15,6 +16,7 @@
 <script>
 import BarButtons from './components/BarButtons.vue'
 import ContactInfo from './components/Menu.vue'
+import NavigatorVue from './components/Navigator.vue'
 import PortfolioMain from './components/PortfolioMain.vue'
 
 export default {
@@ -24,6 +26,7 @@ export default {
     PortfolioMain,
     ContactInfo,
     BarButtons,
+    NavigatorVue,
   },
 
   data: () => ({
