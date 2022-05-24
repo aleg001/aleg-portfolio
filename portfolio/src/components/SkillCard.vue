@@ -1,7 +1,10 @@
 <template>
   <v-container class="mt-15">
-    <h1 class="tracking-in-expand text-center display-3 font-weight-bold mt-5">
-      Skills
+    <h1
+      class="tracking-in-expand text-center display-3 font-weight-bold mt-5"
+      style="font-family: 'Abel', sans-serif"
+    >
+      [ Skills ]
     </h1>
     <v-row>
       <v-card
@@ -172,7 +175,7 @@
         max-height="500"
       >
         <v-img
-          src="https://www.imaginanet.com/thumb.php?n=blog%2F10herramientas.jpg&w=640&h=250&x=0&y=0"
+          src="https://i.ytimg.com/vi/ni3LEc3kvas/maxresdefault.jpg"
           height="100px"
         ></v-img>
 
@@ -266,4 +269,73 @@ export default {
     opacity: 1;
   }
 }
+
+.glitch1 {
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(3px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-3px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+.glitch1:before,
+.glitch1:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.glitch1:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop {
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+.glitch1:after {
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom {
+  2%,
+  64% {
+    transform: translate(-2px, 0);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
+}
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cantarell&family=Oswald:wght@200&display=swap');
 </style>

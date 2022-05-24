@@ -6,11 +6,13 @@
       <bar-buttons></bar-buttons>
     </v-app-bar>
     <skill-card></skill-card>
+    <experience-card></experience-card>
   </v-app>
 </template>
 
 <script>
 import BarButtons from '../components/BarButtons.vue'
+import ExperienceCard from '../components/ExperienceCard.vue'
 import Navigator from '../components/Navigator.vue'
 import SkillCard from '../components/SkillCard.vue'
 
@@ -21,6 +23,7 @@ export default {
     BarButtons,
     Navigator,
     SkillCard,
+    ExperienceCard,
   },
 
   data: () => ({

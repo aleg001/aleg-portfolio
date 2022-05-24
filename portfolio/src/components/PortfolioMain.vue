@@ -23,8 +23,9 @@
           Hello, I'm <u style="text-decoration: underline">Ale G</u>
         </h1>
         <h1>
+          [
           <span class="typed-text">{{ typeValue }}</span>
-          <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+          <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>]
         </h1>
         <br />
 
