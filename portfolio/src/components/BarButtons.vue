@@ -18,7 +18,7 @@
     </v-btn>
 
     <v-btn
-      href="https://github.com/aleg001/aleg-portfolio"
+      href="https://github.com/aleg001"
       target="_blank"
       text
       class="no-uppercase font-weight-bold"
