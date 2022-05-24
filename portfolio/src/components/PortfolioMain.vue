@@ -20,7 +20,10 @@
         </h1>
         <br />
 
-        <p class="subheading font-weight-light mb-10">
+        <p
+          class="subheading font-weight-light mb-10"
+          style="font-family: 'Cantarell', sans-serif"
+        >
           Third year Computer Science Student at Universidad del Valle de
           Guatemala.
           <br />
