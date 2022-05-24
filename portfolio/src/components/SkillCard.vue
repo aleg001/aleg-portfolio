@@ -17,7 +17,10 @@
           Python
         </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="85" bar-color="#A8B5E0">
+          </progress-bar>
+        </v-container>
 
         <v-card-text style="color: white">
           Python was the first programming language that I learned.</v-card-text
@@ -36,7 +39,10 @@
 
         <v-card-title> Vue JS </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="80" bar-color="#6C759C">
+          </progress-bar>
+        </v-container>
 
         <v-card-text> My favorite framework, used on this project.</v-card-text>
       </v-card>
@@ -54,7 +60,10 @@
 
         <v-card-title style="color: white"> React </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="60" bar-color="#A8B5E0">
+          </progress-bar>
+        </v-container>
 
         <v-card-text style="color: white"> TO DO </v-card-text>
       </v-card>
@@ -67,13 +76,16 @@
         max-height="500"
       >
         <v-img
-          src="https://coremacasia.com/wp-content/uploads/2019/11/coremacasia_c.jpg"
+          src="https://www.softzone.es/app/uploads-softzone.es/2022/03/programar-c.jpg?x=480&y=375&quality=40"
           height="100px"
         ></v-img>
 
-        <v-card-title> C </v-card-title>
+        <v-card-title> C++ </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="35" bar-color="#6C759C">
+          </progress-bar>
+        </v-container>
 
         <v-card-text> TODO</v-card-text>
       </v-card>
@@ -91,7 +103,10 @@
 
         <v-card-title style="color: white">PostgreSQL </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="60" bar-color="#A8B5E0">
+          </progress-bar>
+        </v-container>
 
         <v-card-text style="color: white">TODO </v-card-text>
       </v-card>
@@ -104,7 +119,10 @@
 
         <v-card-title> Assembler </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="40" bar-color="#6C759C">
+          </progress-bar>
+        </v-container>
 
         <v-card-text> TODO</v-card-text>
       </v-card>
@@ -122,7 +140,10 @@
 
         <v-card-title style="color: white"> Javascript </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="85" bar-color="#A8B5E0">
+          </progress-bar>
+        </v-container>
 
         <v-card-text style="color: white"> TODO</v-card-text>
       </v-card>
@@ -139,7 +160,10 @@
 
         <v-card-title> HTML/CSS </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="90" bar-color="#6C759C">
+          </progress-bar>
+        </v-container>
 
         <v-card-text> TODO</v-card-text>
       </v-card>
@@ -157,7 +181,10 @@
 
         <v-card-title style="color: white"> Java </v-card-title>
 
-        <v-divider></v-divider>
+        <v-container>
+          <progress-bar size="large" val="50" bar-color="#A8B5E0">
+          </progress-bar>
+        </v-container>
 
         <v-card-text style="color: white"> TODO</v-card-text>
       </v-card>
@@ -166,8 +193,12 @@
 </template>
 
 <script>
+import ProgressBar from 'vue-simple-progress'
 export default {
   data: () => ({}),
+  components: {
+    ProgressBar,
+  },
 }
 </script>
 
