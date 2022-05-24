@@ -1,27 +1,25 @@
 <template>
   <v-container class="text-left" style="background-color: white">
     <v-btn
-      href="https://api.whatsapp.com/send?phone=50250176509&text=Informaci%C3%B3n%20de%20servicios%20tecnol%C3%B3gicos"
-      target="_blank"
       text
       class="no-uppercase font-weight-bold"
+      @click="$router.push('/')"
     >
       <span class="no-uppercase font-weight-bold">Homepage</span>
     </v-btn>
     <v-btn
-      href="mailto: gom20347@uvg.edu.gt"
-      target="_blank"
       text
       class="no-uppercase font-weight-bold"
+      @click="$router.push('/about')"
+      to="/about"
     >
       <span class="no-uppercase font-weight-bold">About</span>
     </v-btn>
 
     <v-btn
-      href="https://github.com/aleg001/aleg-portfolio"
-      target="_blank"
       text
       class="no-uppercase font-weight-bold"
+      @click="$router.push('/portfolio')"
     >
       <span class="no-uppercase font-weight-bold">Portfolio</span>
     </v-btn>

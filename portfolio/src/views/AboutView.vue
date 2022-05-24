@@ -5,8 +5,6 @@
       <v-spacer></v-spacer>
       <bar-buttons></bar-buttons>
     </v-app-bar>
-
-    <v-main style="background-color: #96a39b"> </v-main>
   </v-app>
 </template>
 
