@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="border-radius: 90px" class="mb-5 mt-5">
     <v-row class="text-center">
       <v-col cols="12">
         <img
@@ -13,14 +13,14 @@
       </v-col>
 
       <v-col class="mb-10">
-        <h1 class="display-2 font-weight-bold mb-3">Hello, I'm Ale G</h1>
+        <h1 class="display-2 font-weight-bold mb-1">Hello, I'm Ale G</h1>
         <h1>
           <span class="typed-text">{{ typeValue }}</span>
           <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
         </h1>
         <br />
 
-        <p class="subheading font-weight-light">
+        <p class="subheading font-weight-light mb-10">
           Third year Computer Science Student at Universidad del Valle de
           Guatemala.
           <br />

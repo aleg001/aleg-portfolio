@@ -1,13 +1,11 @@
 <template>
   <v-app>
     <v-app-bar app color="white" style="position: fixed">
-      <div class="d-flex align-center"></div>
-
       <v-spacer></v-spacer>
       <bar-buttons></bar-buttons>
     </v-app-bar>
 
-    <v-main>
+    <v-main style="background-color: #96a39b">
       <PortfolioMain />
       <Second />
     </v-main>
