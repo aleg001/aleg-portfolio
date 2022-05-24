@@ -1,7 +1,9 @@
 <template>
   <v-app>
-    <v-app-bar app color="black" dark style="position: fixed">
+    <v-app-bar app color="white" style="position: fixed">
       <div class="d-flex align-center"></div>
+
+      <v-spacer></v-spacer>
       <v-btn
         href="https://api.whatsapp.com/send?phone=50250176509&text=Informaci%C3%B3n%20de%20servicios%20tecnol%C3%B3gicos"
         target="_blank"
@@ -18,7 +20,6 @@
       >
         <span class="no-uppercase font-weight-bold">Email</span>
       </v-btn>
-      <v-spacer></v-spacer>
 
       <v-btn
         href="https://github.com/aleg001/aleg-portfolio"
@@ -41,18 +42,21 @@
 
     <v-main>
       <PortfolioMain />
+      <Second />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import PortfolioMain from './components/PortfolioMain.vue'
+import Second from './components/Second.vue'
 
 export default {
   name: 'App',
 
   components: {
     PortfolioMain,
+    Second,
   },
 
   data: () => ({

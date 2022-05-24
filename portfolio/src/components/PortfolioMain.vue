@@ -3,16 +3,16 @@
     <v-row class="text-center">
       <v-col cols="12">
         <img
-          :src="piano"
-          @mouseover="piano = compu"
-          @mouseout="piano = require('../assets/piano.png')"
-          class="my-3"
+          :src="compu"
+          @mouseover="compu = piano"
+          @mouseout="compu = require('../assets/desktop.png')"
+          class="my-3 mt-15 mb-5"
           contain
           height="200"
         />
       </v-col>
 
-      <v-col class="mb-4">
+      <v-col class="mb-10">
         <h1 class="display-2 font-weight-bold mb-3">Ale G</h1>
         <h1>
           <span class="typed-text">{{ typeValue }}</span>
@@ -23,9 +23,6 @@
         <p class="subheading font-weight-regular">
           Third year Computer Science Student at Universidad del Valle de
           Guatemala
-        </p>
-        <p class="subheading font-weight-regular">
-          pssss... hover over the piano ;)
         </p>
       </v-col>
     </v-row>
@@ -92,7 +89,8 @@ export default {
 <style lang="scss" scoped>
 .container {
   width: 100%;
-  height: 100%;
+  height: 70%;
+  background-color: #efece5;
 }
 
 h1 {
