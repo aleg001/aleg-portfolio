@@ -19,7 +19,9 @@
       </v-col>
 
       <v-col class="mb-10">
-        <h1 class="display-2 font-weight-bold mb-1">Hello, I'm Ale G</h1>
+        <h1 class="display-2 font-weight-bold mb-1">
+          Hello, I'm <u style="text-decoration: underline">Ale G</u>
+        </h1>
         <h1>
           <span class="typed-text">{{ typeValue }}</span>
           <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
