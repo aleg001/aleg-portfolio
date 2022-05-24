@@ -1,5 +1,5 @@
 <template>
-  <v-container style="border-radius: 90px" class="mt-5">
+  <v-container style="border-radius: 91px" class="mt-5">
     <v-row class="text-center">
       <v-col cols="12">
         <img
@@ -9,6 +9,12 @@
           class="my-3 mt-15 mb-5"
           contain
           height="200"
+        />
+        <img
+          :src="require('../assets/Ale.jpeg')"
+          height="200"
+          class="ml-15 my-3 mt-15 mb-5"
+          style="border-radius: 30px"
         />
       </v-col>
 
