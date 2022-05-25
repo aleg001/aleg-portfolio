@@ -6,7 +6,7 @@
     <v-row class="mb-15">
       <v-card
         class="mx-auto mt-10 blur-in"
-        color="#D4D7BE"
+        color="#FC9E4F"
         width="500"
         max-height="200"
         raised
@@ -26,7 +26,7 @@
 
       <v-card
         class="mx-auto mt-10 blur-in"
-        color="#D4D7BE"
+        color="#FC9E4F"
         width="500"
         max-height="200"
         raised

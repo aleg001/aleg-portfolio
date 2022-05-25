@@ -76,7 +76,7 @@
         </v-container>
 
         <v-card-text style="color: white">
-          One of the frameworks that I like to use to build a Front End project
+          One of the frameworks that I enjoy using to build Front End projects
           quickly.
         </v-card-text>
       </v-card>
