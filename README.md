@@ -1,5 +1,7 @@
 # Web Portfolio - Ale Gómez
 
+Hosteado en: https://portfolio-aleg001.web.app/
+
 ## Configuración de proyecto
 
 ```
@@ -17,6 +19,12 @@ npm run serve
 ```
 npm run build
 ```
+### Firebase Deployment
+
+```
+firebase deploy
+```
+
 
 ### eslint
 
