@@ -6,11 +6,20 @@
       <bar-buttons></bar-buttons>
     </v-app-bar>
 
-    <v-main style="background-color: #96a39b"> </v-main>
+    <v-main style="background-color: #96a39b">
+      <h1
+        class="tracking-in-expand text-center display-3 font-weight-bold mt-5"
+        style="font-family: 'Abel', sans-serif; color: white"
+      >
+        [ Portfolio ]
+      </h1>
+      <ProjectGrid style="background-color: #96a39b"></ProjectGrid>
+    </v-main>
   </v-app>
 </template>
 
 <script>
+import ProjectGrid from '@/components/ProjectGrid.vue'
 import BarButtons from '../components/BarButtons.vue'
 import Navigator from '../components/Navigator.vue'
 
@@ -20,6 +29,7 @@ export default {
   components: {
     BarButtons,
     Navigator,
+    ProjectGrid,
   },
 
   data: () => ({
