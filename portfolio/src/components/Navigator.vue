@@ -5,7 +5,7 @@
       class="no-uppercase font-weight-bold"
       @click="$router.push('/')"
     >
-      <span class="no-uppercase font-weight-bold">Homepage</span>
+      <span class="no-uppercase font-weight-bold">Home</span>
     </v-btn>
     <v-btn
       text

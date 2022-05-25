@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mt-10 blur-in" style="border-radius: 30px">
+  <v-container class="mt-10 blur-in" style="border-radius: 15px">
     <v-row class="text-center mt-4" justify="center">
       <v-col cols="auto">
         <v-btn
@@ -75,7 +75,7 @@ export default {
 ---------------------------------------------- */
 
 .blur-in {
-  animation: blur-in 0.7s linear both;
+  animation: blur-in 0.5s linear both;
 }
 @keyframes blur-in {
   0% {

@@ -6,6 +6,7 @@
     >
       [ Skills ]
     </h1>
+
     <v-row>
       <v-card
         class="mx-auto mt-15 rounded-lg blur-in"
@@ -87,12 +88,9 @@
         max-width="344"
         max-height="500"
       >
-        <v-img
-          src="https://www.softzone.es/app/uploads-softzone.es/2022/03/programar-c.jpg?x=480&y=375&quality=40"
-          height="100px"
-        ></v-img>
+        <v-img src="https://i.imgur.com/x1AJ8Tp.jpeg" height="100px"></v-img>
 
-        <v-card-title> C++ </v-card-title>
+        <v-card-title> C# </v-card-title>
 
         <v-container>
           <progress-bar size="large" val="35" bar-color="#6C759C">
@@ -100,7 +98,7 @@
         </v-container>
 
         <v-card-text>
-          I have used C++ primarily for Game Dev, on Unity.</v-card-text
+          I have used C# primarily for Game Dev, on Unity.</v-card-text
         >
       </v-card>
 
