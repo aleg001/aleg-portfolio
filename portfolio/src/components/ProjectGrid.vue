@@ -7,7 +7,7 @@
   >
     <v-row dense>
       <v-col v-for="card in cards" :key="card.title" :cols="card.flex">
-        <v-card flat>
+        <v-card flat :href="card.link" target="_blank">
           <v-img
             :src="card.src"
             target="_blank"
